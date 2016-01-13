@@ -1,4 +1,4 @@
-# Have fun with languages.
+# Have Fun with Languages
 /* 
  *Author: Andy Wayne
  * E-mail: andy.wayne@foxmail.com
