@@ -1,0 +1,14 @@
+	public static void main(String args[]){
+		int ages[] ={12, 34, 23, 35, 45, 75, 56, 75, 76};
+		findMaxAge(ages, ages.length);			
+	}
+
+	private static void findMaxAge(int array[], int length) {
+		int max = array[0];
+		for (int i = 1; i < length; i++){
+			if (max < array[i]){
+				max = array[i];
+			}
+		}
+		System.out.println("The maximum age is " + max + ".");
+	}
